@@ -1,0 +1,43 @@
+.photo {
+        display: center-div;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+}
+body {
+  background-color: grey;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: none;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+p {
+  font-style: italic;
+}
+#talk {
+  font-weight: bolder;
+}
