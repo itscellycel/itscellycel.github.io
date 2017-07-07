@@ -41,3 +41,8 @@ p {
 #talk {
   font-weight: bolder;
 }
+
+#skills {
+    padding-left:150px;
+    padding-right: 150px;
+}
