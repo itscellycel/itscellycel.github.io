@@ -1,11 +1,21 @@
 .photo {
-        display: center-div;
-        border-radius: 50%;
+
         overflow: hidden;
-        width: 150px;
-        height: 150px;
-        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+
 }
+
+.mainphoto{
+  align-content: center;
+  border-radius: 60%;
+  height:250px;
+  width:250 px;
+  margin: 0 auto;
+  position:top left;
+
+}
+
 body {
   background-color: grey;
 }
