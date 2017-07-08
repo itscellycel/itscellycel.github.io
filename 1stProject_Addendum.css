@@ -14,11 +14,15 @@
   margin: auto;
   margin-top: 20px;
   position:top left;
-
 }
 
 .container button{
   margin-top:20px;
+  font-weight: normal;
+}
+
+.container li{
+  font-weight: bolder;
 }
 
 body {
