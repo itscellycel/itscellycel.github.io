@@ -1,9 +1,7 @@
 .photo {
-
         overflow: hidden;
         width: 250px;
         height: 250px;
-
 }
 
 .mainphoto{
@@ -25,6 +23,10 @@
   font-weight: bolder;
 }
 
+.work, .volunteer, .degrees{
+  margin-left:70px;
+}
+
 body {
   background-color: grey;
 }
@@ -40,7 +42,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: red;
+  color: orange;
   background-color: transparent;
   text-decoration: none;
 }
@@ -64,4 +66,9 @@ p {
 #skills {
     padding-left:150px;
     padding-right: 150px;
+}
+
+.copyright{
+  margin-top:50px;
+  margin-right:20px;
 }
