@@ -19,6 +19,10 @@
   font-weight: normal;
 }
 
+.info {
+  padding-left: 0;
+}
+
 .container li{
   font-weight: bolder;
 }
