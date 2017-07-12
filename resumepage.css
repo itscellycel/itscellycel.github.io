@@ -3,6 +3,14 @@
         width: 250px;
         height: 250px;
 }
+.navbar navbar-inverse navbar-fixed-top{
+  margin-bottom: 0;
+}
+
+.header{
+  background-image: url("codebackground.jpg");
+  margin-top:0;
+}
 
 .mainphoto{
   align-content: center;
