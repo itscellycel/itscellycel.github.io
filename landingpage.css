@@ -1,16 +1,30 @@
-body {
+/*head, body,footer {
   background:linear-gradient(to bottom right, RGBa(47,47,47,0.5), RGBa(0,0,0,1));
-  background-color: #8C8C8C;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
 }
 
 h1{
   text-align: center;
   color: white;
-}
+}*/
+
 .links mainheader{
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    float:right;
+}
+
+.info {
+    opacity: 0.5;
+}
+
+.info:hover {
+    opacity: 1.0;
 }
 
 .copyright {
