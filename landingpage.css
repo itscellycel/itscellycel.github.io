@@ -19,11 +19,12 @@ footer {
     float:right;
 }
 
-.info {
+ul.info li {
+    display: inline;
     opacity: 0.5;
 }
 
-.info:hover {
+ul.info li:hover {
     opacity: 1.0;
 }
 
