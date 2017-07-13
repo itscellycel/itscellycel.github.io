@@ -8,10 +8,39 @@ h1{
   color: white;
 }*/
 
-.links mainheader{
+.photo{
+  height: 100%;
+  width: 150%;
+}
+
+.links{
   margin-left: auto;
   margin-right: auto;
+  /*display:flex;*/
 }
+
+.container{
+  display: flex;
+}
+
+.righthalf, .lefthalf{
+  width: 50%;
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.tile {
+  border: solid black 1px;
+  width: 48%;
+  height: 250px;
+  display: inline-block;
+}
+
 
 footer {
     position:fixed;
