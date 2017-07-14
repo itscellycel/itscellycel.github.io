@@ -153,8 +153,8 @@ ul.copyright{
 }
 
 .rotate {
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
   margin-top: 50vh;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
