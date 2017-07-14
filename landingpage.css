@@ -35,8 +35,10 @@ ul.info{
 }
 
 .weblogo{
-  padding-bottom: 0;
   float:left;
+  padding-bottom: 0;
+  padding-top: 20px;
+
 }
 
 .links{
