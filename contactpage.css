@@ -14,7 +14,8 @@
   src: local('Dosis Medium'), local('Dosis-Medium'), url(http://fonts.gstatic.com/l/font?kit=Z1ETVwepOmEGkbaFPefd_-CW9eLPAnScftSvRB4WBxg&skey=21884fc543bb1165) format('woff2');
 }
 body {
-    background:linear-gradient(to bottom right, RGBa(25,25,25,0.6), RGBa(0,0,0,1));
+    background: url("sfatnightbackground.jpg") no-repeat center center;
+    /*background:linear-gradient(to bottom right, RGBa(25,25,25,0.6), RGBa(0,0,0,1));*/
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
     font-size: 14px;
     line-height: 1.42857;
@@ -23,8 +24,13 @@ body {
     margin: 0;
 }
 
+div.row{
+  margin-left: -100px;
+}
+
+
 h1, p{
-  color:white;
+  font-weight: 900;
 }
 
 
@@ -42,7 +48,7 @@ div.left {
   height: 100%;
   /*border: solid 1px red;*/
   float: left;
-  background: url("#") no-repeat center center;
+  /*background: url("#") no-repeat center center;*/
   background-size: cover;
   overflow:hidden;
 
@@ -54,6 +60,7 @@ div.left {
   float:left;
   margin-left: 0;
   padding-left: 0;
+  padding-top: 75px;
   height:800px;
   width:750px;
   padding-right:0;
@@ -65,11 +72,24 @@ div.right {
   height: 100%;
   /*border: solid 1px blue;*/
   float: right;
+  padding-top: 250px;
+}
+
+.links{
+  background-color: white;
+  border-style: solid;
+  margin-left:70px;
+  margin-right: 70px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-weight: bolder;
 }
 
 ul.copyright{
-  color: white;
+  color: black;
   font-style: italic;
+  font-weight: bold;
   float:right;
-  position:absolute; top:95%; left:70%;
+  position:absolute; top:95%; left:68%;
 }
