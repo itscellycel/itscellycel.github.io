@@ -62,6 +62,10 @@ ul.info li:hover {
 
 }
 
+#gmail, #linkedin, #instagram, #twitter, #github{
+  border-radius: 25%;
+}
+
 body {
   background:linear-gradient(to bottom right, RGBa(47,47,47,0.4), RGBa(0,0,0,1));
   background-color: #8C8C8C;

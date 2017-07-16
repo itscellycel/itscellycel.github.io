@@ -34,6 +34,10 @@ ul.info{
   padding-top: 80px;
 }
 
+#gmail, #linkedin, #instagram, #twitter, #github{
+  border-radius: 25%;
+}
+
 .weblogo{
   float:left;
   padding-bottom: 0;
