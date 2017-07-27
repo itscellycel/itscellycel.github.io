@@ -14,6 +14,12 @@ function submitContactForm() {
         var contactEmail = $('#contact-email').val();
         var contactPhone = $('#contact-phone').val();
         var contactMessage = $('#contact-message').val();
+        console.log(contactFirst)
+        console.log(contactLast)
+        console.log(contactEmail)
+        console.log(contactPhone)
+        console.log(contactMessage)
+
         // data validation code here
         var url = "//docs.google.com/forms/d/e/1FAIpQLScq4L1Ri9teYVCUM88wYZWStatmKvAe49VLimhOlgiD3mxgYQ/viewform#responses";
         var data = {
@@ -34,9 +40,14 @@ function submitContactForm() {
                     // TEMP: CORS ERROR is returning a 401 but data is still getting passed through. Always return a success
                     // window.location.href = "../volunteer";
                     console.log("djsfnsdljnfdslnflsjdf")
+                    console.log(contactFirst)
+                    console.log(contactLast)
+                    console.log(contactEmail)
+                    console.log(contactPhone)
+                    console.log(contactMessage)
                 },
                 200: function () {
-                    window.location.href = "../success";
+                    console.log("uuuuuuuuuuu")
                 }
             }
         });
