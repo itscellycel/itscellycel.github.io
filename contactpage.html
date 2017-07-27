@@ -31,17 +31,12 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <!--<li><a href="#" title="Intro">Intro</a></li>-->
             <li><a href="https://about.me/marcellurbina" title="About" target="_blank">About</a></li>
             <li><a href="https://www.linkedin.com/in/marcellurbina" title="LinkedIn" target="_blank">Work</a></li>
             <li><a href="resume.html" title="Resume">Resume</a></li>
             <li class="active"><a href="#" title="Contact">Contact</a></li>
-            <!--<li><a href="#" title="Home">Home</a></li>-->
           </ul>
-          <!--this is the code for the search bar
-              <form class="navbar-form navbar-right">
-                <input type="text" class="form-control" placeholder="Search...">
-              </form>-->
+
         </div>
       </div>
     </nav>
@@ -52,12 +47,74 @@
         <div class="col-md-2"> </div>
         <div class="col-md-8">
           <h1>Get In Touch</h1>
-          <p class="lead">Have a question<!--or want to hire me-->? Fill out this form:</p>
+          <p class="lead">Have a question? Fill out this form:</p>
 
-          <!-- <p>Fill in the short form and I will get back to you as soon as possible.</p> <br> -->
+        <form class="well form-horizontal" action="https://docs.google.com/forms/d/e/1FAIpQLScq4L1Ri9teYVCUM88wYZWStatmKvAe49VLimhOlgiD3mxgYQ/formResponse" method="POST" id="contact_form">
+      <fieldset>
 
-          <!-- BEGIN DOWNLOAD PANEL -->
-          <div class="panel panel-default well">
+          <div class="form-group has-feedback">
+              <label class="col-md-4 control-label">First Name</label>
+              <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fi-torso"></i></span>
+                      <input name="entry.2005620554" placeholder="First Name" class="form-control" id="contact-first" type="text">
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="form-group">
+              <label class="col-md-4 control-label">Last Name</label>
+              <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fi-torso"></i></span>
+                      <input name="entry.834360636" placeholder="Last Name" class="form-control" id="contact-last" type="text">
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-md-4 control-label">Email</label>
+              <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fi-mail"></i></span>
+                      <input name="entry.1045781291" placeholder="Email" class="form-control" id = "contact-email"  type="text">
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-md-4 control-label">Phone</label>
+              <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fi-pencil"></i></span>
+                      <textarea name="entry.1166974658" placeholder="Phone" class="form-control" id="contact-phone" type="text"></textarea>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="form-group">
+              <label class="col-md-4 control-label">Message</label>
+              <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fi-pencil"></i></span>
+                      <textarea name="entry.839337160" placeholder="Additional" class="form-control" id ="contact-message" type="text"></textarea>
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-md-4 control-label"></label>
+              <div class="col-md-4">
+                  <button type="submit" class="button" id= "contact-form-submit"> Submit <span class="fi-upload"></span></button>
+              </div>
+          </div>
+
+      </fieldset>
+  </form>
+
+          <!-- <div class="panel panel-default well">
             <div class="panel-body">
               <form action="" class="form-horizontal track-event-form bv-form" data-goaltype="”General”" data-formname="”ContactMe”" method="post" id="contact-us-all" novalidate="novalidate">
                 <input name="elqSiteId" type="hidden" value="928">
@@ -123,16 +180,12 @@
                 </div>
                 <input type="hidden" value=""></form>
             </div>
-            <!-- end panel-body -->
           </div>
-          <!-- end panel -->
-          <!-- END DOWNLOAD PANEL -->
         </div>
-        <!-- end col-md-8 -->
         <div class="col-md-2"> </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="right">
     <div class="links">
@@ -154,6 +207,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="/Bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="contactpage.js"></script>
 </body>
 
 </html>
