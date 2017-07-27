@@ -39,7 +39,7 @@ function submitContactForm() {
                 0: function () {
                     // TEMP: CORS ERROR is returning a 401 but data is still getting passed through. Always return a success
                     // window.location.href = "../volunteer";
-                    console.log("djsfnsdljnfdslnflsjdf")
+                    console.log("someothing")
                     console.log(contactFirst)
                     console.log(contactLast)
                     console.log(contactEmail)
