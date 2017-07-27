@@ -15,11 +15,8 @@ function submitContactForm() {
         var contactPhone = $('#contact-phone').val();
         var contactMessage = $('#contact-message').val();
 
-        // data validation code here
-        console.log("BEFORE")
-        console.log(contactMessage)
         var url = "//docs.google.com/forms/d/e/1FAIpQLScq4L1Ri9teYVCUM88wYZWStatmKvAe49VLimhOlgiD3mxgYQ/viewform#responses";
-        console.log("AFTER")
+
         var data = {
             'entry.2005620554': contactFirst,
             'entry.834360636': contactLast,
@@ -27,8 +24,7 @@ function submitContactForm() {
             'entry.1166974658': contactPhone,
             'entry.839337160': contactMessage
         };
-        console.log("BEFOREAJAX")
-        console.log(contactFirst)
+        console.log(contactPhone)
         $.ajax({
             type: "POST",
             url: url,
