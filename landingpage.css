@@ -143,23 +143,23 @@ ul.copyright{
 
 .vertical-tab-1 {
 	background: url("macbookbw.jpg") center center no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .vertical-tab-2 {
 	background: url("computer-programming.jpeg") center center;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .vertical-tab-3 {
 	background: url("Pile-of-resumes.jpg") center center;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .vertical-tab-4 {
 	background: url("http://wiki.morethanthemes.com/images/f/fe/Mobi-blocks-07.png") center center;
   background-size:cover;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .rotate {
