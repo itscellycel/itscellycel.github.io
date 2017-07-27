@@ -15,7 +15,7 @@ function submitContactForm() {
         var contactPhone = $('#contact-phone').val();
         var contactMessage = $('#contact-message').val();
         // data validation code here
-        var url = "//docs.google.com/forms/d/e/1FAIpQLScq4L1Ri9teYVCUM88wYZWStatmKvAe49VLimhOlgiD3mxgYQ/formResponse";
+        var url = "https://docs.google.com/forms/d/e/1FAIpQLScq4L1Ri9teYVCUM88wYZWStatmKvAe49VLimhOlgiD3mxgYQ/viewform#responses";
         var data = {
             'entry.2005620554': contactFirst,
             'entry.834360636': contactLast,
