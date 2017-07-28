@@ -138,11 +138,11 @@ ul.copyright{
 	color: #fcfcfc;
 	text-transform: uppercase;
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 900;
+	font-weight:bolder;
 }
 
 .vertical-tab-1 {
-	background: url("workspace.jpg") center center no-repeat;
+	background: url("workspace5.jpg") center center no-repeat;
   opacity: 0.7;
   background-size:cover;
 }
