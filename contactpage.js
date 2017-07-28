@@ -6,7 +6,7 @@ $(document).ready(function () {
       var contactMessage= $("#contact-message").val();
       var contactPhone= $("#contact-phone").val();
       var contactEmail= $("#contact-email").val();
-      emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail}););
+      emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
     });
 });
 //
