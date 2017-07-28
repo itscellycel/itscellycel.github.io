@@ -1,6 +1,5 @@
 
 $(document).ready(function () {
-  alert("Page Ready");
     $("#submit-contact-form").click(function(){
       var contactFirst= $("#contact-first").val();
       var contactLast= $("#contact-last").val();
