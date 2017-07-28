@@ -16,7 +16,7 @@ $(document).ready(function () {
 });
 
 function enableBtn(){
-  $("#contact-form-submit").disabled=false;
+  $("#contact-form-submit").prop("disabled",false);
 }
 //
 //
