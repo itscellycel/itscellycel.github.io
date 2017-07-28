@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+  $("#contact-form-submit").disabled=true;
     $("#contact-form-submit").click(function(){
       console.log("1")
       var contactFirst= $("#contact-first").val();
@@ -13,6 +14,10 @@ $(document).ready(function () {
       $("#contact_form")[0].reset();
     });
 });
+
+function enableBtn(){
+  $("#contact-form-submit").disabled=false;
+}
 //
 //
 //
