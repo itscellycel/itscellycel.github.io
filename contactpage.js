@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-  $("#contact-form-submit").disabled=true;
+  $("#contact-form-submit").prop("disabled",true);
     $("#contact-form-submit").click(function(){
       console.log("1")
       var contactFirst= $("#contact-first").val();
