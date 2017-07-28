@@ -1,8 +1,9 @@
 
 $(document).ready(function () {
+  alert("Page Ready");
     $("#submit-contact-form").click(function(){
       alert("Success!");
-    });  
+    });
 });
 //
 //
