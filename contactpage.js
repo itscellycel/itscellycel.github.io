@@ -2,7 +2,12 @@
 $(document).ready(function () {
   alert("Page Ready");
     $("#submit-contact-form").click(function(){
-      alert("Success!");
+      var contactFirst= $("#contact-first").val();
+      var contactLast= $("#contact-last").val();
+      var contactMessage= $("#contact-message").val();
+      var contactPhone= $("#contact-phone").val();
+      var contactEmail= $("#contact-email").val();
+      emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail}););
     });
 });
 //
