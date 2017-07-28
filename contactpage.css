@@ -75,6 +75,10 @@ div.right {
   padding-top: 250px;
 }
 
+.g-recaptcha{
+  margin:0;
+}
+
 .links{
   background-color: white;
   border-style: solid;

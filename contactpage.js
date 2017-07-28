@@ -1,12 +1,16 @@
 
 $(document).ready(function () {
-    $("#submit-contact-form").click(function(){
+    $("#contact-form-submit").click(function(){
+      console.log("1")
       var contactFirst= $("#contact-first").val();
       var contactLast= $("#contact-last").val();
       var contactMessage= $("#contact-message").val();
       var contactPhone= $("#contact-phone").val();
       var contactEmail= $("#contact-email").val();
       emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
+      console.log("2")
+      alert("I'll be recieving your email shortly!");
+      $("#contact_form")[0].reset();
     });
 });
 //
