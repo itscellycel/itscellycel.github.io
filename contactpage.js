@@ -10,7 +10,7 @@ $(document).ready(function () {
       var contactEmail= $("#contact-email").val();
       emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
       console.log("2")
-      alert("I'll be recieving your email shortly!");
+      alert("Thank you for your message, I'll be recieving your email shortly!");
       $("#contact_form")[0].reset();
     });
 });
