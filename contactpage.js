@@ -2,17 +2,18 @@
 $(document).ready(function () {
   $("#contact-form-submit").prop("disabled",true);
     $("#contact-form-submit").click(function(){
-      validateForm();
       console.log("1")
       var contactFirst= $("#contact-first").val();
       var contactLast= $("#contact-last").val();
       var contactMessage= $("#contact-message").val();
       var contactPhone= $("#contact-phone").val();
       var contactEmail= $("#contact-email").val();
-      // emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
-      console.log("2")
-      alert("Thank you for your message, I'll be recieving your email shortly!");
-      $("#contact_form")[0].reset();
+      if (validateForm()){
+        // emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
+        console.log("2")
+        alert("Thank you for your message, I'll be recieving your email shortly!");
+        $("#contact_form")[0].reset();
+      }
     });
 });
 
@@ -44,6 +45,10 @@ function validateForm() {
 //                     if (contactMessage == "") {
 //                         alert("Field Cannot Be Left Blank");
 //                         return false;
+    }
+    else
+    {
+      true;
     }
 }
 
