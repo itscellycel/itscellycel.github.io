@@ -45,7 +45,10 @@ function enableBtn(){
 //     }
 // }
 
-//
+
+
+
+// Ignore this code for now
 //
 // function submitContactForm() {
 //
