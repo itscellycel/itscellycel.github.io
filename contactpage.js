@@ -8,7 +8,7 @@ $(document).ready(function () {
       var contactMessage= $("#contact-message").val();
       var contactPhone= $("#contact-phone").val();
       var contactEmail= $("#contact-email").val();
-      if (validateForm()){
+      if (validateForm() == true){
         // emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
         console.log("2")
         alert("Thank you for your message, I'll be recieving your email shortly!");
@@ -48,7 +48,7 @@ function validateForm() {
     }
     else
     {
-      true;
+      return true;
     }
 }
 
