@@ -135,7 +135,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-user"></i>
                       </div>
-                      <input type="text" class="form-control" id="contact-first" placeholder="Enter first name" name="C_FirstName" data-bv-field="C_FirstName" required>
+                      <input type="text" class="form-control" id="contact-first" placeholder="Enter first name" name="C_FirstName" data-bv-field="C_FirstName">
                     </div>
                     <small data-bv-validator="notEmpty" data-bv-validator-for="C_FirstName" class="help-block" style="display: none;">Required</small></div>
                   <div class="col-sm-6">
@@ -143,7 +143,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-user"></i>
                       </div>
-                      <input type="text" class="form-control" id="contact-last" placeholder="Enter last name" name="C_LastName" data-bv-field="C_LastName" required></div>
+                      <input type="text" class="form-control" id="contact-last" placeholder="Enter last name" name="C_LastName" data-bv-field="C_LastName"></div>
                     <small data-bv-validator="notEmpty" data-bv-validator-for="C_LastName" class="help-block" style="display: none;">Required</small></div>
                 </div>
 
@@ -153,7 +153,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-envelope"></i>
                       </div>
-                      <input type="text" class="form-control" id="contact-email" placeholder="Enter email" name="C_EmailAddress" data-bv-field="C_EmailAddress" required>
+                      <input type="text" class="form-control" id="contact-email" placeholder="Enter email" name="C_EmailAddress" data-bv-field="C_EmailAddress">
                     </div>
                     <small data-bv-validator="notEmpty" data-bv-validator-for="C_EmailAddress" class="help-block" style="display: none;">Required</small></div>
 
@@ -162,7 +162,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-phone"></i>
                       </div>
-                      <input type="text" class="form-control" id="contact-phone" placeholder="Enter phone" name="C_BusPhone" required>
+                      <input type="text" class="form-control" id="contact-phone" placeholder="Enter phone" name="C_BusPhone">
                     </div>
                   </div>
                 </div>
@@ -173,7 +173,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-comment fa-2"></i>
                       </div>
-                      <textarea class="form-control" name="Comments" id="contact-message" rows="5" style="width:99.9%" placeholder="Enter your message here" required></textarea>
+                      <textarea class="form-control" name="Comments" id="contact-message" rows="5" style="width:99.9%" placeholder="Enter your message here"></textarea>
                     </div>
                   </div>
                 </div>
@@ -183,7 +183,7 @@
                       <button type="button" class="button" id= "contact-form-submit"> Submit <span class="fi-upload"></span></button>
                   </div>
                 </div>
-                <input type="hidden" value=""></form>
+                <input type="hidden"  name="required" value="C_FirstName, C_LastName, C_EmailAddress, C_BusPhone, Comments"></form>
                   <!--<div class="g-recaptcha" data-sitekey="6LfRzCoUAAAAAFSdGDatbUOXR-TXlj80SOwxrZ5h" data-callback="enableBtn"></div>-->
             </div>
           </div>
