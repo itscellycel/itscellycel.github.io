@@ -24,6 +24,7 @@ function enableBtn(){
 
 function validateForm() {
     var contactFirst= $("#contact-first").val();
+    console.log(contactFirst);
     if (contactFirst == "") {
         alert("Field Cannot Be Left Blank");
         return false;
