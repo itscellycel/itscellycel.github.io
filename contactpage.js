@@ -20,10 +20,26 @@ function enableBtn(){
 }
 
 function validateForm() {
-    var x = document.forms["”ContactMe”"]["C_FirstName, C_LastName,C_EmailAddress,C_BusPhone,Comments"].value;
-    if (x == "") {
+    var contactFirst= document.forms["”ContactMe”"]["#contact-first,"].value;
+    if (contactFirst == "") {
         alert("Field Cannot Be Left Blank");
         return false;
+        var contactLast = document.forms["”ContactMe”"]["#contact-;last,"].value;
+        if (contactLast == "") {
+            alert("Field Cannot Be Left Blank");
+            return false;
+            var contactEmail = document.forms["”ContactMe”"]["#contact-email,"].value;
+            if (contactEmail == "") {
+                alert("Field Cannot Be Left Blank");
+                return false;
+                var contactPhone = document.forms["”ContactMe”"]["#contact-phone,"].value;
+                if (contactPhone == "") {
+                    alert("Field Cannot Be Left Blank");
+                    return false;
+                    var contactMessage = document.forms["”ContactMe”"]["#contact-message,"].value;
+                    if (contactMessage == "") {
+                        alert("Field Cannot Be Left Blank");
+                        return false;
     }
 }
 //
