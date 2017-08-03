@@ -9,7 +9,7 @@ $(document).ready(function () {
       var contactMessage= $("#contact-message").val();
       var contactPhone= $("#contact-phone").val();
       var contactEmail= $("#contact-email").val();
-      emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
+      // emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
       console.log("2")
       alert("Thank you for your message, I'll be recieving your email shortly!");
       $("#contact_form")[0].reset();
@@ -23,7 +23,7 @@ function enableBtn(){
 // I tried this JS code to see if I can make the fields on my contact for to be required before submission. This code need to be looked over to make sure it was written correctly.
 
 function validateForm() {
-    var contactFirst= document.forms["”ContactMe”"]["#contact-first"].value;
+    var contactFirst= $("#contact-first").val();
     if (contactFirst == "") {
         alert("Field Cannot Be Left Blank");
         return false;
