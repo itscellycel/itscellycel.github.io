@@ -2,6 +2,7 @@
 $(document).ready(function () {
   $("#contact-form-submit").prop("disabled",true);
     $("#contact-form-submit").click(function(){
+      validateForm();
       console.log("1")
       var contactFirst= $("#contact-first").val();
       var contactLast= $("#contact-last").val();
@@ -21,11 +22,11 @@ function enableBtn(){
 
 // I tried this JS code to see if I can make the fields on my contact for to be required before submission. This code need to be looked over to make sure it was written correctly.
 
-//function validateForm() {
-//     var contactFirst= document.forms["”ContactMe”"]["#contact-first,"].value;
-//     if (contactFirst == "") {
-//         alert("Field Cannot Be Left Blank");
-//         return false;
+function validateForm() {
+    var contactFirst= document.forms["”ContactMe”"]["#contact-first,"].value;
+    if (contactFirst == "") {
+        alert("Field Cannot Be Left Blank");
+        return false;
 //         var contactLast = document.forms["”ContactMe”"]["#contact-;last,"].value;
 //         if (contactLast == "") {
 //             alert("Field Cannot Be Left Blank");
@@ -42,8 +43,8 @@ function enableBtn(){
 //                     if (contactMessage == "") {
 //                         alert("Field Cannot Be Left Blank");
 //                         return false;
-//     }
-// }
+    }
+}
 
 
 
