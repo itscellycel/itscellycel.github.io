@@ -18,6 +18,14 @@ $(document).ready(function () {
 function enableBtn(){
   $("#contact-form-submit").prop("disabled",false);
 }
+
+function validateForm() {
+    var x = document.forms["”ContactMe”"]["C_FirstName, C_LastName,C_EmailAddress,C_BusPhone,Comments"].value;
+    if (x == "") {
+        alert("Field Cannot Be Left Blank");
+        return false;
+    }
+}
 //
 //
 //
