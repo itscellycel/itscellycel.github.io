@@ -23,7 +23,7 @@ function enableBtn(){
 // I tried this JS code to see if I can make the fields on my contact for to be required before submission. This code need to be looked over to make sure it was written correctly.
 
 function validateForm() {
-    var contactFirst= document.forms["”ContactMe”"]["#contact-first,"].value;
+    var contactFirst= document.forms["”ContactMe”"]["#contact-first"].value;
     if (contactFirst == "") {
         alert("Field Cannot Be Left Blank");
         return false;
