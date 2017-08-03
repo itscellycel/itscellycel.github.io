@@ -98,7 +98,7 @@ ul.copyright{
   position:absolute; top:95%; left:68%;
 }
 
-#contact-form-submit{
-  margin:0;
+.g-recaptcha, .form-group{
+  margin: auto;
   padding-top: 10px;
 }
