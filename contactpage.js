@@ -36,29 +36,29 @@ function validateForm() {
     console.log(contactEmail);
     //First Name
     if (contactFirst == "") {
-        alert("Field Cannot Be Left Blank");
+        alert("Name Field Cannot Be Left Blank");
         return false;  }
 
 // Last Name
     if (contactLast == "") {
-        alert("Field Cannot Be Left Blank");
+        alert("Name Field Cannot Be Left Blank");
         return false;  }
 
 // Email
 if (contactEmail == "") {
-    alert("Field Cannot Be Left Blank");
+    alert("Email Field Cannot Be Left Blank");
     return false;  }
 
 
 //Phone Number
 if (contactPhone == "") {
-    alert("Field Cannot Be Left Blank");
+    alert("Phone Number Field Cannot Be Left Blank");
     return false;  }
 
 
 // Message
 if (contactMessage == "") {
-    alert("Field Cannot Be Left Blank");
+    alert(" Message Field Cannot Be Left Blank");
     return false;  }
 else
 {
