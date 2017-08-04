@@ -38,35 +38,23 @@ function validateForm() {
     if (contactFirst == "") {
         alert("Field Cannot Be Left Blank");
         return false;  }
-    else
-    {
-      return true;
-    }
+
 // Last Name
     if (contactLast == "") {
         alert("Field Cannot Be Left Blank");
         return false;  }
-    else
-    {
-      return true;
-    }
+
 // Email
 if (contactEmail == "") {
     alert("Field Cannot Be Left Blank");
     return false;  }
-else
-{
-  return true;
-}
+
 
 //Phone Number
 if (contactPhone == "") {
     alert("Field Cannot Be Left Blank");
     return false;  }
-else
-{
-  return true;
-}
+
 
 // Message
 if (contactMessage == "") {
