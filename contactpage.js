@@ -25,31 +25,57 @@ function enableBtn(){
 
 function validateForm() {
     var contactFirst= $("#contact-first").val();
+    var contactLast= $("#contact-last").val();
+    var contactMessage= $("#contact-message").val();
+    var contactPhone= $("#contact-phone").val();
+    var contactEmail= $("#contact-email").val();
     console.log(contactFirst);
+    console.log(contactLast);
+    console.log(contactMessage);
+    console.log(contactPhone);
+    console.log(contactEmail);
+    //First Name
     if (contactFirst == "") {
         alert("Field Cannot Be Left Blank");
-        return false;
-//         var contactLast = document.forms["”ContactMe”"]["#contact-;last,"].value;
-//         if (contactLast == "") {
-//             alert("Field Cannot Be Left Blank");
-//             return false;
-//             var contactEmail = document.forms["”ContactMe”"]["#contact-email,"].value;
-//             if (contactEmail == "") {
-//                 alert("Field Cannot Be Left Blank");
-//                 return false;
-//                 var contactPhone = document.forms["”ContactMe”"]["#contact-phone,"].value;
-//                 if (contactPhone == "") {
-//                     alert("Field Cannot Be Left Blank");
-//                     return false;
-//                     var contactMessage = document.forms["”ContactMe”"]["#contact-message,"].value;
-//                     if (contactMessage == "") {
-//                         alert("Field Cannot Be Left Blank");
-//                         return false;
-    }
+        return false;  }
     else
     {
       return true;
     }
+// Last Name
+    if (contactLast == "") {
+        alert("Field Cannot Be Left Blank");
+        return false;  }
+    else
+    {
+      return true;
+    }
+// Email
+if (contactEmail == "") {
+    alert("Field Cannot Be Left Blank");
+    return false;  }
+else
+{
+  return true;
+}
+
+//Phone Number
+if (contactPhone == "") {
+    alert("Field Cannot Be Left Blank");
+    return false;  }
+else
+{
+  return true;
+}
+
+// Message
+if (contactMessage == "") {
+    alert("Field Cannot Be Left Blank");
+    return false;  }
+else
+{
+  return true;
+}
 }
 
 
