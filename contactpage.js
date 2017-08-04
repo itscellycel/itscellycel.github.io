@@ -9,7 +9,7 @@ $(document).ready(function () {
       var contactPhone= $("#contact-phone").val();
       var contactEmail= $("#contact-email").val();
       if (validateForm()){
-        // emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
+        emailjs.send("gmail","template_UPluqtLC",{firstname: contactFirst, lastname:contactLast,  message: contactMessage, phonenumber: contactPhone, email: contactEmail});
         console.log("2")
         alert("Thank you for your message, I'll be recieving your email shortly!");
         $("#contact_form")[0].reset();
