@@ -21,7 +21,7 @@ function enableBtn(){
   $("#contact-form-submit").prop("disabled",false);
 }
 
-// I tried this JS code to see if I can make the fields on my contact for to be required before submission. This code need to be looked over to make sure it was written correctly.
+// This code below was used to make sure that all fields are required in the contat form. 
 
 function validateForm() {
     var contactFirst= $("#contact-first").val();
