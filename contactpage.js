@@ -21,7 +21,7 @@ function enableBtn(){
   $("#contact-form-submit").prop("disabled",false);
 }
 
-// This code below was used to make sure that all fields are required in the contat form. 
+// This code below was used to make sure that all fields are required in the contat form.
 
 function validateForm() {
     var contactFirst= $("#contact-first").val();
@@ -110,3 +110,4 @@ else
 //         });
 //     });
 // }
+//
